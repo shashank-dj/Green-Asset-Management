@@ -415,3 +415,30 @@ with st.expander("📥 Export processed data & utilities", expanded=False):
 with st.expander("ℹ️ App Info & Next Steps", expanded=False):
     st.markdown(
         """
+**What this app includes**
+- KPI computation, daily aggregation, and data preprocessing.
+- Visual insights: energy mix, CO₂ trends, renewable penetration, heatmaps.
+- Rule-based sustainability recommendations.
+- Optional ML modules:
+  - CO₂ forecasting (Prophet)
+  - Reliability classification (RandomForest)
+- Advanced analytics:
+  - Correlation heatmap
+  - Energy flow Sankey diagram
+  - CO₂ intensity heatmap (hour × day)
+  - Renewable vs Load density map
+
+---
+
+### **To enable ML features**
+Install optional dependencies in your environment:
+
+```bash
+pip install prophet scikit-learn
+
+
+
+
+
+
+
