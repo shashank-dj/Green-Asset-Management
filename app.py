@@ -360,25 +360,7 @@ with tab_adv:
 
 
 # -------------------------
-# Footer
+# End of App
 # -------------------------
 st.markdown("---")
-st.caption("Green Asset Monitor – built with Streamlit • ML • Sustainable Intelligence ⚡🌱")
-
-with st.expander("ℹ️ App Info & Next Steps"):
-    st.markdown(
-        """
-**What this app includes**
-- KPI computation, daily aggregation, and data preprocessing.
-- Visual insights: energy mix, CO₂ trends, renewable penetration, heatmaps.
-- Rule-based sustainability recommendations.
-- Optional ML modules (Prophet, RandomForest).
-- Advanced analytics: Sankey, correlation matrices, density maps.
-
----
-
-### To enable ML features
-Install:
-
-```bash
-pip install prophet scikit-learn
+st.caption("Green Asset Monitor – Industrial Sustainability Dashboard 🌱")
